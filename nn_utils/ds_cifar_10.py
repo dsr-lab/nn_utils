@@ -2,7 +2,7 @@ import torch
 import torchvision
 import torchvision.transforms as transforms
 
-from utils import DatasetLoader
+from nn_utils import DatasetLoader
 
 
 class Cifar10(DatasetLoader):
